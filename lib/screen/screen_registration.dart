@@ -89,7 +89,7 @@ class RegistrationPageState extends State<RegistrationPage> {
 
   void _submitForm() {
     if (_nameValue != "" && _emailValue != "" && _passwordValue != "" && _acceptTerms == true) {
-      Navigator.pushReplacementNamed(context, '/blabla/',
+      Navigator.pushReplacementNamed(context, '/homepage/',
           arguments: {"name": _nameValue, "email": _emailValue});
     }
   }
